@@ -1,0 +1,22 @@
+{
+  "name": "ssrf-backend",
+  "version": "1.0.0",
+  "description": "SSRF vulnerable developed with NodeJs",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pradeep-vikram/ssrf-backend.git"
+  },
+  "author": "Prdaeep Vikram",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pradeep-vikram/ssrf-backend/issues"
+  },
+  "homepage": "https://github.com/pradeep-vikram/ssrf-backend#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
