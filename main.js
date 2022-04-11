@@ -31,6 +31,10 @@ app.post("/", async (req, res) => {
     });
 })
 
+app.get("/test", (req, res) => {
+    res.send("Test")
+})
+
 const port = 4000
 app.listen(port | 4000, () => {
     console.log(`Listening to port : ${port}`)
