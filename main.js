@@ -32,7 +32,8 @@ app.post("/", async (req, res) => {
 })
 
 app.get("/test", (req, res) => {
-    res.send("Test")
+    let data = { data: "test" }
+    res.send(JSON.stringify(data))
 })
 
 const port = 4000
